@@ -45,7 +45,7 @@ const Sidebar = () => {
                     </div>
                     <div className="flex-1 min-w-0">
                         <p className="text-white font-semibold text-sm truncate">
-                            {authUser?.name || 'User'}
+                            {authUser?.fullName || 'User'}
                         </p>
                         <p className="text-yellow-100 text-xs opacity-80 truncate">
                             {authUser?.email || 'Welcome back!'}
